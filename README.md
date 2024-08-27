@@ -1,5 +1,16 @@
 # Yolov8-Contador
 
+## Indice
+
+- [Funcionalidades](#funcionalidades) <br>
+- [Tecnologias Utilizadas](#tecnologias-utilizadas) <br>
+- [Requisitos](#requisitos) <br>
+- [Como Usar](#como-usar) <br>
+- [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados) <br>
+- [Contribuições](#contribuições) <br>
+- [Licença](#licença) <br>
+- [Contato](#contato) <br>
+
 # Detecção e Contagem de Veículos com YOLOv8
 
 Este projeto implementa um sistema de detecção e contagem de veículos utilizando o modelo YOLOv8, OpenCV para processamento de vídeo, e SQLite para armazenamento de dados. A aplicação permite a captura de vídeo em tempo real a partir de uma URL de câmera, gera um código QR para fácil acesso à URL, e armazena informações de contagem de veículos em um banco de dados SQLite.

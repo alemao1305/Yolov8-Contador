@@ -55,28 +55,28 @@ pip install -r requirements.txt
 
 ## Como Usar
 
-  1- Configuração Inicial:
+  1. Configuração Inicial:
       * Certifique-se de ter um ambiente Python configurado.
       * Instale todas as dependências necessárias listadas acima.
 
-  2- Execução do Programa:
+  2. Execução do Programa:
       * Execute o arquivo Python principal para iniciar a interface gráfica:
 
 ```bash
 python nome_do_arquivo.py
 ```
 
-  3- Inserção da URL da Câmera:
+  3. Inserção da URL da Câmera:
         Insira a URL da câmera de onde o vídeo será capturado.
         Insira o intervalo de tempo (em minutos) para o envio de dados para o banco de dados. Caso não seja inserido, o intervalo padrão será de 5 minutos.
 
-  4- Geração do QR Code:
+  4. Geração do QR Code:
         Após inserir a URL, clique no botão "IP da Câmera" para gerar e salvar um QR Code com a URL fornecida.
 
-  5- Seleção de ROI:
+  5. Seleção de ROI:
         Ao iniciar a detecção, você poderá definir uma Região de Interesse (ROI) desenhando um retângulo na janela de vídeo.
 
-  6- Contagem e Armazenamento:
+  6. Contagem e Armazenamento:
         O sistema começará a detectar e contar os veículos que passam pela linha definida na ROI. As contagens serão armazenadas no banco de dados SQLite.
 
 ## Estrutura do Banco de Dados
